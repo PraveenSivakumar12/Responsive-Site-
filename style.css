@@ -20,7 +20,7 @@ body {
 /* Navbar */
 .navbar {
     width: 100%;
-    height: 70px;
+    height: 75px;
     background-color: #d4de95;
     display: flex;
     justify-content: space-between;

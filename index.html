@@ -8,6 +8,7 @@
     <title>Brand Identity Design</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="./script.js" defer></script>
 </head>
 
 <body>
@@ -54,11 +55,11 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="left">
+                    <div data-aos="flip-left" class="left">
                         <div class="circle"></div>
                         <h1>Innovative<br>Design<br>Solutions</h1>
                     </div>
-                    <div class="right">
+                    <div data-aos="flip-right" class="right">
                         <p>
                             Libero nunc consequat interdum varius.
                             Ornare quam viverra orci sagittis eu volutpat
@@ -79,13 +80,13 @@
         <div class="wrapper">
             <div class="main-container">
                 <div class="image-area">
-                    <div class="circle1"></div>
+                    <div data-aos="zoom-in" class="circle1"></div>
                     <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
                         alt="Team working" class="image-one">
                     <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800"
                         alt="Business woman" class="image-two">
                 </div>
-                <div class="content-card">
+                <div data-aos="fade-up" class="content-card">
                     <h1>Brand Identity<br>Design Agency</h1>
                     <ul>
                         <li>
@@ -187,8 +188,57 @@
             </div>
         </div>
     </div>
+    <div class="infinite-scroll">
+        <div class="wrapper-scroll">
+            <div class="scroll-track">
+                <div class="scroll-item">Logo 1</div>
+                <div class="scroll-item">Logo 2</div>
+                <div class="scroll-item">Logo 3</div>
+                <div class="scroll-item">Logo 4</div>
 
+                <div class="scroll-item">Logo 5</div>
+                <div class="scroll-item">Logo 6</div>
+                <div class="scroll-item">Logo 7</div>
+                <div class="scroll-item">Logo 8</div>
+
+                <div class="scroll-item">Logo 1</div>
+                <div class="scroll-item">Logo 2</div>
+                <div class="scroll-item">Logo 3</div>
+                <div class="scroll-item">Logo 4</div>
+                <div class="scroll-item">Logo 5</div>
+                <div class="scroll-item">Logo 6</div>
+            </div>
+            <div class="scroll-img">
+                <div class="image-scroll"><img
+                        src="https://images.unsplash.com/photo-1541560052-5e137f229371?auto=format&fit=crop&q=80&w=800"
+                        alt="Project 1"></div>
+                <div class="image-scroll"><img
+                        src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800"
+                        alt="Project 2"></div>
+                <div class="image-scroll"><img
+                        src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80&w=800"
+                        alt="Project 3"></div>
+                <div class="image-scroll"><img
+                        src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=800"
+                        alt="Project 4"></div>
+                 <div class="image-scroll"><img
+                        src="https://images.unsplash.com/photo-1541560052-5e137f229371?auto=format&fit=crop&q=80&w=800"
+                        alt="Project 1"></div>
+                <div class="image-scroll"><img
+                        src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800"
+                        alt="Project 2"></div>
+                <div class="image-scroll"><img
+                        src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80&w=800"
+                        alt="Project 3"></div>
+                <div class="image-scroll"><img
+                        src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=800"
+                        alt="Project 4"></div>
+
+            </div>
+        </div>
+    </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>
         AOS.init();
         function openMenu() {
@@ -197,6 +247,10 @@
         function closeMenu() {
             document.getElementById("sidePanel").classList.remove("active");
         }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
